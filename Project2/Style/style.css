@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color:#ffffff;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #5753b3;
+    cursor: pointer;
+}
+
+.logo{
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 8px;
+}
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #5753b3;
+    border: none;
+    border-radius: 10px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+header div button:hover{
+    cursor: pointer;
+    color: #5753b3;
+    background-color: #fff;
+    border: 3px solid #5753b3;
+    padding: 7.5px 18px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #3a3161;
+    font-size: 50px;
+    padding: 0px 200px 10px 20px;
+}
+
+span{
+    color: #5750b5;
+}
+
+p{
+    padding: 0px 0px 50px 20px;
+    color: #3a3161;
+}
+
+main div{
+    padding: 0 20px;
+}
+
+main div div button:hover{
+    cursor: pointer;
+    color: #5753b3;
+    background-color: #fff;
+    border: 3px solid #5753b3;
+    padding: 7.5px 18px;
+}
+
+.main-right{
+    width: 100%;
+}
